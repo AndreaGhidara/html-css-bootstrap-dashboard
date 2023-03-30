@@ -1,0 +1,36 @@
+:root{
+    --serchBar:#F8F9FA ;
+    --navbar:#051E34 ;
+    --mainPrimary:#1B72E8 ;
+}
+
+body{
+    overflow-y: hidden;
+}
+
+
+.BG_serchbar{
+    background-color: var(--serchBar);
+}
+
+.BG_navbar{
+    background-color: var(--navbar);
+}
+
+.BG_primary{
+    background-color: var(--mainPrimary);
+}
+
+.full_screen_height{
+    height: 100vh;
+}
+
+.left{
+    width: 100px;
+    height: calc(100vh - 54px);
+}
+
+.right{
+    width: 100%;
+    height: calc(100vh - 55px);
+}

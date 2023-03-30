@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>html-css-bootstrap-dashboard</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src='https://kit.fontawesome.com/904cc76917.js' crossorigin='anonymous'></script>
+</head>
+
+<body>
+    <header>
+        <!-- serch-bar -->
+        <div class="container-fluid">
+            <div class="row py-2 BG_serchbar">
+                <div class="col-2  d-flex justify-content-center align-items-center">
+                    <img class="d-none d-lg-block img-fluid" src="./assets/img/logo.svg" alt="">
+                    <img class="d-lg-none" src="./assets/img/mobile-logo.png" width="50px" alt="">
+                </div>
+                <div class="col-8 d-flex align-items-center p-0">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </div>
+                <div class="col-2 fs-5 d-flex justify-content-center align-items-center">
+                    <div class="d-flex d-none d-lg-block">
+                        <i class="m-2 fa-solid fa-list"></i>
+                        <i class="m-2 fa-solid fa-circle-question"></i>
+                        <i class="m-2 fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                    <i class="m-2 text-warning fa-solid fa-bell"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="d-flex">
+            <!-- left part -->
+            <div class="left d-flex flex-column justify-content-between p-1 text-white BG_navbar">
+                <!-- navbar -->
+                <div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item d-flex justify-content-center">
+                            <a class="nav-link" aria-current="page" href="#">
+                                <i class="fa-solid fa-house"></i>
+                                <span class="d-none d-lg-inline-block">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-chart-simple"></i>
+                                <span class="d-none d-lg-inline-block">Stats</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center">
+                            <a class="nav-link" aria-current="page" href="#">
+                                <i class="fa-solid fa-signal"></i>
+                                <span class="d-none d-lg-inline-block">Signal</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item d-flex justify-content-center">
+                            <a class="nav-link" aria-current="page" href="#">
+                                <i class="fa-solid fa-gear"></i>
+                                <span class="d-none d-lg-inline-block">Admin</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- right -->
+            <div class="right text-white">
+                <!-- top -->
+                <div class="row row-cols-1 row-cols-md-3 m-0 align-items-start BG_primary p-1">
+                    <div class="col mt-4 d-flex align-items-center  order-sm-1">
+                        <p class="mb-0">Nuovo studente</p>
+                        <i class="fa-solid fa-square-plus fa-2xl ms-3"></i>
+                    </div>
+                    <div class="col mt-4">
+                        <p class="mb-0 d-inline-block fs-2">Boolean</p>
+                        <span class="badge rounded-pill text-bg-primary">Piano blaze</span> <br>
+                        <span class="badge rounded-pill text-bg-primary">3 APP</span>
+                        <i class="fa-solid fa-angles-right"></i>
+                        <span class="badge rounded-pill text-bg-primary d-xl-none">+</span>
+                        <span class="badge rounded-pill text-bg-primary d-none d-lg-inline-block">Boolean mobile app</span>
+                        <span class="badge rounded-pill text-bg-primary d-none d-lg-inline-block">Boolean web app</span>
+                        <span class="badge rounded-pill text-bg-primary d-none d-lg-inline-block">Boolean blog app</span>
+                    </div>
+                    <div class="col mt-4">
+                        <div class="row">
+                            <p>Studenti online negli ultimi 30 minuti</p>
+                            <p class="fs-4">125</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
