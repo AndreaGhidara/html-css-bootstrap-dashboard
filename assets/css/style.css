@@ -1,24 +1,33 @@
+/*------------------------------
+        General Rule
+-------------------------------*/
 :root{
     --serchBar:#F8F9FA ;
     --navbar:#051E34 ;
     --mainPrimary:#1B72E8 ;
 }
 
+body{
+    overflow-y: hidden;
+}
 
 
-
+/* background */
 .BG_serchbar{
     background-color: var(--serchBar);
 }
 
 .BG_navbar{
     background-color: var(--navbar);
+    background-image: url(../img/sidebar-bg.png);
+    background-position: 75%;
 }
 
 .BG_primary{
     background-color: var(--mainPrimary);
 }
 
+/* utility */
 .full_screen_height{
     height: 100vh;
 }
@@ -31,4 +40,14 @@
 .right{
     width: 100%;
     height: calc(100vh - 55px);
+}
+
+
+/* Effect Hover*/
+.navbar-nav .nav-link:hover{
+    background-color: grey;
+}
+
+.table button:hover{
+    background-color: grey;
 }
