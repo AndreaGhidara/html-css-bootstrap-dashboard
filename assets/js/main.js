@@ -5,7 +5,7 @@ let myChart = new Chart(ctx, {
         labels: ['Gennaio', 'Febbraio', 'Marzo', 'Aprile', 'Maggio', 'Giugno'],
         datasets: [{
             label: 'Nuovi Studenti',
-            data: [2, 19, 3, 5, 2, 3],
+            data: [7, 25, 51, 40, 38, 41],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
